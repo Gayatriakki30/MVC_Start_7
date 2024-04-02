@@ -16,6 +16,11 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult DIS(int id)
+    {
+        return View();
+    }
+
     public IActionResult Contact()
     {
         TempData["name"] = "ISM 6225";
